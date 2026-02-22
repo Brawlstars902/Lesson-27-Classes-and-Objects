@@ -1,0 +1,17 @@
+class parrot:
+
+
+    species='bird'
+
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+Blu=parrot('blu',10)
+Woo=parrot('woo',15)
+
+print('Blu is a {}'.format(Blu.species))
+print('Woo is a {}'.format(Woo.species))
+
+print('{} is {} years old'.format(Blu.name, Blu.age))
+print('{} is {} years old'.format(Woo.name, Woo.age))
